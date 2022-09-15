@@ -1,0 +1,41 @@
+/* #gui { 
+	position: absolute;
+} */
+body {
+	margin: 0;
+}
+header {
+	background: black;
+	color: white;
+	text-align: left;
+	vertical-align: auto;
+	width: 100vw;
+	height: 10vh;
+}
+nav {
+	display: inline-block;
+	background: whitesmoke;
+	width: 100vw;
+	height: 7vh;
+}
+.three-Container {
+	width: 80vw;
+	height: 80vh;
+	float: left;
+}
+#id_three-Canvas {
+	width: 80vw;
+	height: 80vh;
+}
+#id_datGUI {
+	position: absolute;
+	top: 20vh;
+	left: 60vw;
+}
+.tool-Container {
+	width: 16vw;
+	height: 80vh;
+	float: right;
+	background: gray;
+	margin: 0;
+}

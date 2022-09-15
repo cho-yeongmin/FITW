@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FITW</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <header>
+      <p>FITW - TestPage</p>
+    </header>
+
+    <nav>
+      <button id="id_btn_createSpace">공간생성</button>
+      <button id="id_btn_editSpace">공간편집</button>
+      <button id="id_btn_tileDB">타일DB</button>
+    </nav>
+
+    <div class="three-Container">
+      <canvas id="id_three-Canvas"></canvas>
+      <div id="id_datGUI"></div>
+    </div>
+
+    <div class="tool-Container">
+      <fieldset>
+        <legend>Input</legend>
+
+        <p>방향입력</p>
+        <p>
+          <button id="id_btn_upper">직진</button>
+          <button id="id_btn_left">좌</button>
+          <button id="id_btn_right">우</button>
+        </p>
+
+        <p>길이입력</p>
+        <input type="number" id="id_input_length" value="0" step="0.1" />
+        <button id="id_btn_length">입력</button>
+
+        <p>공간생성</p>
+        <input type="number" id="id_input_height" value="0" step="0.1" />
+        <button id="id_btn_create">공간생성</button>
+
+        <p>타일정보입력</p>
+        <label>가로</label>
+        <input type="number" id="id_input_tile_width" value="0" step="0.1" />
+        <label>세로</label>
+        <input type="number" id="id_input_tile_height" value="0" step="0.1" />
+        <button id="id_btn_tile">입력</button>
+
+        <button id="getMaterial">적용~!</button>
+      </fieldset>
+    </div>
+  </body>
+</html>
